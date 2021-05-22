@@ -1,0 +1,71 @@
+name: Build and test
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  linting:
+    name: Linting
+    runs-on: 'ubuntu-latest'
+    strategy:
+        matrix:
+          python-version:
+            - 3.7
+            - 3.8
+            - 3.9
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install poetry and dependencies
+        uses: greenbone/poetry-action@v1
+      - name: Check with black
+        run: poetry run black --check --diff pontos tests
+      - name: Check with pylint
+        run: poetry run pylint pontos tests
+      - name: Check version information
+        run: poetry run python -m pontos.version verify current
+
+  test:
+    name: Run all tests
+    runs-on: 'ubuntu-latest'
+    strategy:
+        matrix:
+          python-version:
+            - 3.7
+            - 3.8
+            - 3.9
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install poetry and dependencies
+        uses: greenbone/poetry-action@v1
+      - name: Run unit tests
+        run: poetry run python -m unittest
+
+  codecov:
+    name: Upload coverage to codecov.io
+    needs: test
+    runs-on: 'ubuntu-latest'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install poetry and dependencies
+        uses: greenbone/poetry-action@v1
+      - name: Install codecov
+        run: poetry run pip install codecov
+      - name: Run unit tests with coverage
+        run: poetry run coverage run -m unittest
+      - name: Upload coverage to codecov.io
+        run: poetry run codecov
