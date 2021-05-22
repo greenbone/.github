@@ -1,7 +1,7 @@
 {
     "name": "Build and test Python package",
     "description": "Lint, test and upload coverage for Python packages",
-    "iconName": "greenbone",
+    "iconName": "python",
     "categories": [
         "Python"
     ],
