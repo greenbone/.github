@@ -1,0 +1,12 @@
+{
+    "name": "Deploy Python package on PyPI",
+    "description": "Upload wheel and source package to PyPI",
+    "iconName": "python",
+    "categories": [
+        "Python"
+    ],
+    "filePatterns": [
+        "^pyproject.toml$",
+        "^setup.py$"
+    ]
+}
