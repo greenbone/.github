@@ -62,10 +62,6 @@ jobs:
         with:
           python-version: 3.8
       - name: Install poetry and dependencies
-        uses: greenbone/poetry-action@v1
-      - name: Install codecov
-        run: poetry run pip install codecov
-      - name: Run unit tests with coverage
-        run: poetry run coverage run -m unittest
-      - name: Upload coverage to codecov.io
-        run: poetry run codecov
+        uses: greenbone/actions/poetry@v1
+      - name: Calculate and upload coverage to codecov.io
+        uses: greenbone/actions/coverage-python@v1
