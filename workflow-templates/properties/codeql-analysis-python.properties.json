@@ -1,0 +1,12 @@
+{
+    "name": "CodeQL Analysis for Python package",
+    "description": "Scan Python package for security vulnerabilities via CodeQL",
+    "iconName": "python",
+    "categories": [
+        "Python"
+    ],
+    "filePatterns": [
+        "^pyproject.toml$",
+        "^setup.py$"
+    ]
+}
