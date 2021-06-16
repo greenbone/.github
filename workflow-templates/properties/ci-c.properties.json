@@ -1,0 +1,11 @@
+{
+    "name": "Build and test C based software",
+    "description": "Lint and test C based software",
+    "iconName": "cmake",
+    "categories": [
+        "C"
+    ],
+    "filePatterns": [
+        "^CMakeLists.txt$"
+    ]
+}

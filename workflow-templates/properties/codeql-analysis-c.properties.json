@@ -1,0 +1,11 @@
+{
+    "name": "CodeQL Analysis for C based software",
+    "description": "Scan C based software for security vulnerabilities via CodeQL",
+    "iconName": "cmake",
+    "categories": [
+        "C"
+    ],
+    "filePatterns": [
+        "^CMakeLists.txt$"
+    ]
+}
