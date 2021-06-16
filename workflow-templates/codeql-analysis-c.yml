@@ -34,7 +34,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
       # build between init and analyze ...
-    - name: Configure and Compile gvm-libs
+    - name: Configure and Compile
       run: |
         mkdir build && cd build/ && cmake \
         -DCMAKE_BUILD_TYPE=Release .. && make install
