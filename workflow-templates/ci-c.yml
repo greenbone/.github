@@ -15,8 +15,8 @@ jobs:
       - uses: actions/checkout@v2.3.4
       - name: Check Source Format
         run: |
-          clang-format -i -style=file base/*.{c,h} boreas/*.{c,h} \
-          gmp/*.{c,h} osp/*.{c,h} util/*.{c,h} && git diff --exit-code
+          # FIXME insert correct file/dir pattern to the format command ...
+          clang-format -i -style=file <INSERT_DIRS>/*.{c,h} && git diff --exit-code
   test_units:
     name: Unit Tests
     runs-on: 'ubuntu-latest'
