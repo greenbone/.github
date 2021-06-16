@@ -23,7 +23,7 @@ jobs:
     container: $DOCKER_IMAGE # FIXME needs to be adjusted in each workflow
     steps:
       - uses: actions/checkout@v2.3.4
-      - name: Configure and test gvm-libs
+      - name: Configure and test
         run: |
           mkdir build && cd build/ && cmake -DCMAKE_BUILD_TYPE=Release \
           -DBUILD_TESTS=1 .. && make install && make tests && \
