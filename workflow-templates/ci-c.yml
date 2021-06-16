@@ -1,0 +1,31 @@
+name: Build and test C
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+
+jobs:
+  c_format_check:
+    name: Check C Source Code Formatting
+    runs-on: 'ubuntu-latest'
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Check Source Format
+        run: |
+          # FIXME insert correct file/dir pattern to the format command ...
+          clang-format -i -style=file <INSERT_DIRS>/*.{c,h} && git diff --exit-code
+  test_units:
+    name: Unit Tests
+    runs-on: 'ubuntu-latest'
+    container: $DOCKER_IMAGE # FIXME needs to be adjusted in each workflow
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Configure and test
+        run: |
+          mkdir build && cd build/ && cmake -DCMAKE_BUILD_TYPE=Release \
+          -DBUILD_TESTS=1 .. && make install && make tests && \
+          CTEST_OUTPUT_ON_FAILURE=1 make test
+        working-directory: ${{ github.WORKSPACE }}
