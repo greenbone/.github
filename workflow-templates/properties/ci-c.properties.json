@@ -1,7 +1,7 @@
 {
     "name": "Build and test C based software",
     "description": "Lint and test C based software",
-    "iconName": "cmake",
+    "iconName": "c-cpp",
     "categories": [
         "C"
     ],
