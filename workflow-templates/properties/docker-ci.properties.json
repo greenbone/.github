@@ -1,0 +1,11 @@
+{
+    "name": "Build and upload Dockerfile images",
+    "description": "Build and upload the given matrix of Dockerfiles to hub.docker.com",
+    "iconName": "greenbone",
+    "categories": [
+        "Docker"
+    ],
+    "filePatterns": [
+        "^Dockerfile$"
+    ]
+}
