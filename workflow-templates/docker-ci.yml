@@ -23,8 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Find reference branch
         run: |
           if [ -n "$GITHUB_BASE_REF" ];                          \
