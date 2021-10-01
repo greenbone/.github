@@ -1,4 +1,4 @@
-![Greenbone banner](https://raw.githubusercontent.com/greenbone/.github/main/profile/greenbone-banner.png)
+![Greenbone banner](https://raw.githubusercontent.com/greenbone/.github/master/profile/greenbone-banner.png)
 
 # Job Opportunities
 
