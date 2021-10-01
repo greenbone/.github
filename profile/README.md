@@ -1,5 +1,8 @@
 ![Greenbone banner](https://raw.githubusercontent.com/greenbone/.github/master/profile/greenbone-banner.png)
 
+Greenbone develops the leading Open Source Vulnerability Management solution
+including the OpenVAS scanner.
+
 # Job Opportunities
 
 We are currently actively searching for
