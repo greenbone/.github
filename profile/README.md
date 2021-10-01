@@ -5,11 +5,11 @@ including the OpenVAS scanner.
 
 # Job Opportunities
 
-We are currently actively searching for
+We are currently looking for
 
   * Developers passionate for building Open Source projects with Python and Go
   * Researchers, security analysts, developers with interest in implementing
-    tests for newest vulnerabilities
+    checks for newest vulnerabilities
 
 Interested? Please contact [jobs@greenbone.net](mailto:jobs@greenbone.net?subject=Github)
 
