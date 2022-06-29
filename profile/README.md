@@ -27,3 +27,4 @@ We are always happy to find new members for our team, offering various career op
     checks for newest vulnerabilities
 
 Interested? Please contact [jobs@greenbone.net](mailto:jobs@greenbone.net?subject=Github)
+![GitHubBanner2 ](https://user-images.githubusercontent.com/86790639/176519750-b4971714-a997-4919-8373-40eaa592e8a5.jpg)
