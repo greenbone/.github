@@ -1,4 +1,5 @@
-![Greenbone_Github_Banner](https://user-images.githubusercontent.com/897575/211326106-70a30fe0-9351-4810-af09-3c5c94861317.png)
+![Greenbone_Github_Banner](https://user-images.githubusercontent.com/897575/211328626-523c9add-9be5-40f1-bc87-7beb3c63abe4.png)
+
 
 Greenbone creates the leading Open Source Vulnerability Management solution,
 including the OpenVAS scanner, a security feed with more than 110.000 vulnerability tests, 
