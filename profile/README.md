@@ -17,7 +17,7 @@ with other users of our software.
 Read our [Documentation](https://greenbone.github.io/docs/) on building our
 software.
 
-You can find us from time on Mastodon [@greenbone@floss.social](https://floss.social/@greenbone)
+You can find us on Mastodon [@greenbone@floss.social](https://floss.social/@greenbone)
 
 # Job Opportunities
 
