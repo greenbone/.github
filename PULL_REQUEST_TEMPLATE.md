@@ -9,6 +9,10 @@
 
 <!-- Describe why are these changes necessary? -->
 
+## References
+
+<!-- Add links to issue tickets, etc. -->
+
 ## Checklist
 
 <!-- Remove this section if not applicable to your changes -->
