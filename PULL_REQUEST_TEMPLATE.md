@@ -11,7 +11,7 @@
 
 ## References
 
-<!-- Add links to issue tickets, etc. -->
+<!-- Add identifier to issue tickets, etc. -->
 
 ## Checklist
 
