@@ -11,7 +11,7 @@
 
 ## References
 
-<!-- Add identifier to issue tickets, etc. -->
+<!-- Add identifier for issue tickets, links to other PRs, etc. -->
 
 ## Checklist
 
