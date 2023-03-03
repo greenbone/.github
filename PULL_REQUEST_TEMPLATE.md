@@ -18,5 +18,6 @@
 <!-- Remove this section if not applicable to your changes -->
 
 - [ ] Tests
+- [ ] ⚠️ Used conventional commits in my commits or merge commit message
 
 
