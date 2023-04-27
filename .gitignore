@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# vscode settings
+.vscode
+
+# vim settings in virtualenv
+.vim
