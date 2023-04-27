@@ -1,7 +1,7 @@
 # Using Conventional Commits at Greenbone <!-- omit in toc -->
 
 - [What are Conventional Commits?](#what-are-conventional-commits)
-- [Why do we want to use conventional commits?](#why-do-we-want-to-use-conventional-commits)
+- [Why do we want to use Conventional Commits?](#why-do-we-want-to-use-conventional-commits)
 - [How to create a Conventional Commit message?](#how-to-create-a-conventional-commit-message)
 - [Conventional Commit Types](#conventional-commit-types)
 
@@ -12,7 +12,7 @@ about changes in a project. Using the structured information allows to create
 changelog entries for release notes. At Greenbone [pontos] is used to derive
 release notes from the git history automatically.
 
-## Why do we want to use conventional commits?
+## Why do we want to use Conventional Commits?
 
 Manually handling and maintaining changelog files leads to several issues
 especially when having to maintain several release branches:
