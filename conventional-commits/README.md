@@ -44,6 +44,7 @@ By default the following conventional commit types are recognized.
 |Change|Change one/multiple things in one/multiple files.|`Change: Change the behavior of y ...`|
 |Remove|Remove something from one/multiple files. Removed one/multiple files.|`Remove: Remove Feature z ...`|
 |Fix|Fix a bug in one/multiple files.|`Fix: Resolved the behavior of X ...`|
+|Deps|Dependency updates|`Update foo from 1.x.y to 2.0.0`|
 
 
 [pontos]: https://github.com/greenbone/pontos
