@@ -27,4 +27,4 @@ We are always happy to find new members for our team, offering various career op
   * Researchers, security analysts, developers with interest in implementing
     checks for newest vulnerabilities
 
-Interested? Please contact [jobs@greenbone.net](mailto:jobs@greenbone.net?subject=Github)
+Interested? Please contact [jobs@greenbone.net](mailto:jobs@greenbone.net?subject=Github) with your CV!
