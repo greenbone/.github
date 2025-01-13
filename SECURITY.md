@@ -117,9 +117,9 @@ Additional security MVP baseline on top of incubating baseline:
     * .pyc for compiled bytecode files
   * Robot Framework
     * .resource recommended when using the plain text format
-	* .robot, .txt and .tsv supported with the plain text format for backwards compatibility reasons -> .resource is recommended and may be mandated in the future.
-	* .rest and .rest resource file using the [reStructuredText format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-restructured-text-format)
-	* .rsrc and .json resource file using the [JSON format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-json-format)
+    * .robot, .txt and .tsv supported with the plain text format for backwards compatibility reasons -> .resource is recommended and may be mandated in the future.
+    * .rest and .rest resource file using the [reStructuredText format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-restructured-text-format)
+    * .rsrc and .json resource file using the [JSON format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-json-format)
   * NASL
     * .nasl for source files
   * JavaScript
