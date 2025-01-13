@@ -45,7 +45,7 @@ When the project starts, it's critical to have a security foundation to reduce a
 
 | Security Baseline | Objective | How to Implement | How to Verify|
 |-------|-------|-------|-------|
-| A memory-safe language is adopted for new projects or new components. | Reduce  memory safety vulnerabilities at scale. | Choose one of the [memory-safe languages](https://www.memorysafety.org/docs/memory-safety/) <br /> <br />  For preexisting projects in C or C++, follow the [Compiler Options Hardening Guide](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++) | Check the [file extension](#Standard-File-Extensions-of-Common-Programming-Languages) and compare with the code. <br /> <br />
+| A memory-safe language is adopted for new projects or new components. | Reduce  memory safety vulnerabilities at scale. | Choose one of the [memory-safe languages](https://www.memorysafety.org/docs/memory-safety/) <br /> <br />  For preexisting projects in C or C++, follow the [Compiler Options Hardening Guide](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++) | Check the [file extension](#Standard-File-Extensions-of-Programming-Languages-used-at-Greenbone) and compare with the code. <br /> <br />
 |Two-factor authentication (2FA) is enabled for repository interactive access. | Reduce the risks of credential compromise and attacks on the digital assets.| 2FA is enabled by default at the enterprise level for all the organizations.<br /> <br /> Refer to [SCM Best Practices](https://best.openssf.org/SCM-BestPractices/) for more information. <br /> <br /> See [instructions for device setup](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).|[2FA verification, drift detection and correction](#2FA-Verification-Drift-Detection-and-Correction) provides details for verifying 2FA is enabled, monitoring and restoring 2FA if it’s disabled. |
 
 ##### Security Baseline - To Become Incubating
@@ -101,25 +101,27 @@ Additional security MVP baseline on top of incubating baseline:
 
 
 #### Appendix
-##### Standard File Extensions of Common Programming Languages
+##### Standard File Extensions of Programming Languages used at Greenbone
   * Rust
     * .rs for source files
     * .toml for the Cargo configuration files
       * Cargo is Rust's build system and package manager.
   * Go
     * .go for source files.
-  * C#:
-    * .cs for source files
-    * .csproj for project files
   * Java
     * .java for source files
     * .class for compiled bytecode files
     * .jar For Java archive files
-  * Swift
-    * .swift for source files.
   * Python
     * .py for source files
     * .pyc for compiled bytecode files
+  * Robot Framework
+    * .resource recommended when using the plain text format
+    * .robot, .txt and .tsv supported with the plain text format for backwards compatibility reasons -> .resource is recommended and may be mandated in the future.
+    * .rest and .rest resource file using the [reStructuredText format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-restructured-text-format)
+    * .rsrc and .json resource file using the [JSON format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files-using-json-format)
+  * NASL
+    * .nasl for source files
   * JavaScript
     * .js for standard JavaScript files
     * [Common JavaScript File Extension](https://www.npmjs.com/package/common-js-file-extensions) provides a comprehensive list.
