@@ -2,7 +2,7 @@
 
 
 Greenbone creates the leading open-source vulnerability management solution,
-including the OpenVAS scanner, a security feed with more than 160.000 vulnerability tests, 
+including the OpenVAS scanner, a security feed with more than 200,000 vulnerability tests, 
 a vulnerability management application, and much more.
 
 # Get in Touch
@@ -17,7 +17,10 @@ with other users of our software.
 Read our [Documentation](https://greenbone.github.io/docs/) on building our
 software.
 
-You can find us on Mastodon [@greenbone@floss.social](https://floss.social/@greenbone)
+Watch tutorials and updates on our [YouTube channel](https://www.youtube.com/@greenbone).
+
+Follow us on [LinkedIn](https://www.linkedin.com/company/greenbone-ag) for
+company news, monthly threat reports and more insights.
 
 # Job Opportunities
 
