@@ -17,6 +17,7 @@
 
 <!-- Remove this section if not applicable to your changes -->
 
-- [ ] Tests
+- [ ] I have added tests for the changes
+- [ ] I have used the following LLMs/AI tools to create this pull request: 
 
 
