@@ -17,18 +17,18 @@ used to derive release notes from the git history automatically.
 Manually handling and maintaining changelog files leads to several issues
 especially when having to maintain several release branches:
 
- * Merge conflicts through maintaining different versions (21.04, 21.10 ...)
- * Inconsistency in a changelog: E.g. Adding a fix in 20.8.4 and 21.4.3. Where
-   should we add the changelog entry? If we add it in 20.8.4, it won't show up
-   in the 21.04 changelog.
-* Additional unnecessary overhead by having to write a changelog entry, a commit
+- Merge conflicts through maintaining different versions (21.04, 21.10 ...)
+- Inconsistency in a changelog: E.g. Adding a fix in 20.8.4 and 21.4.3. Where
+  should we add the changelog entry? If we add it in 20.8.4, it won't show up
+  in the 21.04 changelog.
+- Additional unnecessary overhead by having to write a changelog entry, a commit
   message and a pull request description.
 
 ## How to create a Conventional Commit message?
 
 The commit message should be structured as follows:
 
-```
+```text
 <type>: <title/description>
 
 <details, reason and background for the commit>
@@ -59,8 +59,6 @@ will be recognized as well.
 Additional characters in the prefix are accepted as well, meaning commit
 message titles like `docs: mention foo in README.md` are also recognized.
 
-
 [pontos]: https://github.com/greenbone/pontos
 [git-cliff]: https://git-cliff.org/
 [Greenbone `git-cliff` configuration]: https://github.com/greenbone/actions/blob/main/cliff.toml
-
