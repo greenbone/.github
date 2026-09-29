@@ -51,6 +51,13 @@ By default, the following conventional commit types are recognized:
 | CI          | Changes to automated workflows                                       | `CI: Run deployment for x`             |
 | Misc        | Commits not fitting into any other type                              | `Misc: Do something`                   |
 
+Note that the colon (`:`) and capitalization is optional, so commit message
+titles like `Add new feature x ...` or `ci: run deployment for x` are valid and
+will be recognized as well.
+
+Additional characters in the prefix are accepted as well, meaning commit
+message titles like `docs: mention foo in README.md` are also recognized.
+
 
 [pontos]: https://github.com/greenbone/pontos
 [git-cliff]: https://git-cliff.org/
