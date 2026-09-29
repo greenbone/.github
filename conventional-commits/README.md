@@ -36,7 +36,8 @@ The commit message should be structured as follows:
 
 ## Conventional Commit Types
 
-By default, the following conventional commit types are recognized:
+By default, the following conventional commit types are recognized when using
+the [Greenbone `git-cliff` configuration]:
 
 | Type        | Description                                                          | Example                                |
 |-------------|----------------------------------------------------------------------|----------------------------------------|
@@ -61,3 +62,5 @@ message titles like `docs: mention foo in README.md` are also recognized.
 
 [pontos]: https://github.com/greenbone/pontos
 [git-cliff]: https://git-cliff.org/
+[Greenbone `git-cliff` configuration]: https://github.com/greenbone/actions/blob/main/cliff.toml
+
